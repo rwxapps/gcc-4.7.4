@@ -11923,7 +11923,7 @@ fi
 CC_FOR_BUILD='$(CC)'
 BUILD_CFLAGS='$(ALL_CFLAGS)'
 BUILD_LDFLAGS='$(LDFLAGS)'
-STMP_FIXINC=stmp-fixinc
+STMP_FIXINC=''
 
 # And these apply if build != host, or we are generating coverage data
 if test x$build != x$host || test "x$coverage_flags" != x

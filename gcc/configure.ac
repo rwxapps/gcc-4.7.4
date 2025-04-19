@@ -1900,7 +1900,7 @@ AC_SUBST(inhibit_libc)
 CC_FOR_BUILD='$(CC)'		AC_SUBST(CC_FOR_BUILD)
 BUILD_CFLAGS='$(ALL_CFLAGS)'	AC_SUBST(BUILD_CFLAGS)
 BUILD_LDFLAGS='$(LDFLAGS)'	AC_SUBST(BUILD_LDFLAGS)
-STMP_FIXINC=stmp-fixinc		AC_SUBST(STMP_FIXINC)
+STMP_FIXINC=''
 
 # And these apply if build != host, or we are generating coverage data
 if test x$build != x$host || test "x$coverage_flags" != x
